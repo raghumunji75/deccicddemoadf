@@ -1,0 +1,11 @@
+{
+	"name": "ls_datalake_cicd_dev",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://devcicddemo.dfs.core.windows.net/"
+		}
+	}
+}
